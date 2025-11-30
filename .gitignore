@@ -1,0 +1,25 @@
+# macOS
+.DS_Store
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Virtual environments
+.venv/
+
+# Data directories
+data/raw/
+data/processed/*.csv
+data/processed/*.png
+data/processed/histograms/
+data/processed/model_results_simple.json
+
+# Model artifacts
+models/
+
+# Jupyter notebook checkpoints
+.ipynb_checkpoints/
+
+# Any other large files
+*.joblib
